@@ -1,0 +1,191 @@
+{
+  "labels": [
+    {
+      "name": "Costume",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 99.05921936035156,
+        "parents": []
+      }
+    },
+    {
+      "name": "Shoe",
+      "boundingBoxes": [
+        {
+          "height": 0.099891297519207,
+          "left": 0.6409918069839478,
+          "top": 0.892121434211731,
+          "width": 0.13976840674877167
+        },
+        {
+          "height": 0.09026873856782913,
+          "left": 0.3963904082775116,
+          "top": 0.8886075615882874,
+          "width": 0.06735958904027939
+        }
+      ],
+      "metadata": {
+        "confidence": 99.03694915771484,
+        "parents": [
+          {
+            "name": "Footwear"
+          },
+          {
+            "name": "Clothing"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clothing",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 99.03694915771484,
+        "parents": []
+      }
+    },
+    {
+      "name": "Footwear",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 99.03694915771484,
+        "parents": [
+          {
+            "name": "Clothing"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Apparel",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 99.03694915771484,
+        "parents": []
+      }
+    },
+    {
+      "name": "Skirt",
+      "boundingBoxes": [
+        {
+          "height": 0.21127666532993317,
+          "left": 0.32967719435691833,
+          "top": 0.4750629663467407,
+          "width": 0.31901904940605164
+        }
+      ],
+      "metadata": {
+        "confidence": 95.0367202758789,
+        "parents": [
+          {
+            "name": "Clothing"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Person",
+      "boundingBoxes": [
+        {
+          "height": 0.8526514172554016,
+          "left": 0.2601659297943115,
+          "top": 0.13379862904548645,
+          "width": 0.5486053824424744
+        }
+      ],
+      "metadata": {
+        "confidence": 92.33641052246094,
+        "parents": []
+      }
+    },
+    {
+      "name": "Human",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 92.33641052246094,
+        "parents": []
+      }
+    },
+    {
+      "name": "Road",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 83.20626831054688,
+        "parents": []
+      }
+    },
+    {
+      "name": "Mascot",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 83.12786865234375,
+        "parents": []
+      }
+    },
+    {
+      "name": "Urban",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 68.81184387207031,
+        "parents": []
+      }
+    },
+    {
+      "name": "City",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 65.51806640625,
+        "parents": [
+          {
+            "name": "Urban"
+          },
+          {
+            "name": "Building"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Building",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 65.51806640625,
+        "parents": []
+      }
+    },
+    {
+      "name": "Town",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 65.51806640625,
+        "parents": [
+          {
+            "name": "Urban"
+          },
+          {
+            "name": "Building"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Downtown",
+      "boundingBoxes": [],
+      "metadata": {
+        "confidence": 59.34144592285156,
+        "parents": [
+          {
+            "name": "City"
+          },
+          {
+            "name": "Urban"
+          },
+          {
+            "name": "Building"
+          }
+        ]
+      }
+    }
+  ],
+  "unsafe": "NO"
+}
