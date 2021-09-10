@@ -50,16 +50,23 @@ const App = () => {
      */
 
     return (
-        <div className="file-upload">
-            <h1 style={{textAlign: "center"}} className="header">Upload your image here</h1>
-            {showingField ? <div className="image-upload-wrap">
-                <input className="file-upload-input" type='file' onChange={onChange}/>
-                <div className="drag-text">
-                    <h3>Drag and drop a file or select add Image</h3>
+        <>
+        <div className="row">
+            <div className="column middle">
+                <div className="file-upload">
+                    <h1 style={{textAlign: "center"}} className="header">Upload your image here</h1>
+                    {showingField ? <div className="image-upload-wrap">
+                        <input className="file-upload-input" type='file' onChange={onChange}/>
+                        <div className="drag-text">
+                            <h3>Drag and drop a file or select add Image</h3>
+                        </div>
+                    </div> : <div><ImageView url={imageURL} name={imageName} removeImage={removeImage}/></div>}
                 </div>
-            </div> : <div><ImageView url={imageURL} name={imageName} removeImage={removeImage}/><ResponseView
-                response={response}/></div>}
+            </div>
+            <div className="column side"><ResponseView response={"Hi"}/></div>
         </div>
+        </>
+
     );
 }
 

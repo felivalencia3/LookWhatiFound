@@ -1,12 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: sans-serif;
-    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+    padding: 30px;
+}
+
+/* Left and right column */
+.column.side {
+    -webkit-flex: 1.7;
+    -ms-flex: 1.7;
+    flex: 1.7;
+}
+
+/* Middle column */
+.column.middle {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
 }
 
 .file-upload {
     background-color: #ffffff;
-    width: 600px;
-    margin: 0 auto;
+    width: auto;
+    max-width: 700px;
+    margin-left: 20%;
     padding: 5px 10px 10px 10px;
 }
 
